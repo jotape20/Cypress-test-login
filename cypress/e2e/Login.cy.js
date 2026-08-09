@@ -19,5 +19,4 @@ it('Login invalido', () => {
     cy.loginPage()
     cy.loginInvalido()
   })
-
 })
