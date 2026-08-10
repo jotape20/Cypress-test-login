@@ -1,7 +1,7 @@
 describe('Login testes', () => {
 
     beforeEach(() => {
-        cy.visit('https://sweetshop.netlify.app/')
+        cy.visit('/')
         cy.title()
             .should('eq', 'Sweet Shop')            
     })
