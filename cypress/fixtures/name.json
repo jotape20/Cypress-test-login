@@ -1,7 +1,7 @@
 {
-    "usuario": "oneorder@sweetshop.local",
-    "senha": "qwerty",
+    "user": "oneorder@sweetshop.local",
+    "password": "qwerty",
     "userInvalid": "jotateste@hotmail.com",
-    "senhaInvalid": "teste"
+    "passInvalid": "teste"
 
 }
