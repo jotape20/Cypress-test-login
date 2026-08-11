@@ -9,10 +9,7 @@ describe('Cart tests', () => {
     })
 
 it('Adicionando item ao carrinho', () =>{
-    cy.get('@iten1')
-        .click()
-    cy.contains('Basket')
-        .should('have.text', '1 Basket')
+    cy.addToCart()
 })    
 
 it('Fazendo uma compra', () =>{
