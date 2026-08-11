@@ -1,0 +1,13 @@
+{
+    "user": "oneorder@sweetshop.local",
+    "password": "qwerty",
+    "userInvalid": "jotateste@hotmail.com",
+    "passInvalid": "teste",
+    "address":"rio purus",
+    "zip": "41180",
+    "lastName":"Viana",
+    "fullName":"Joao Viana", 
+    "cardNumber":"123123123",
+    "cardExpiration": "03/31",
+    "cardCvv": "280"
+}

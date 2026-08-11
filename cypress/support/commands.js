@@ -8,7 +8,7 @@ Cypress.Commands.add('loginPage', () => {
 })
 
 Cypress.Commands.add('realizandoLogin', () => {
-    cy.fixture('name').then((usuario) => {
+    cy.fixture('Client').then((usuario) => {
     cy.get('@email')
         .type(usuario.user, {delay: 0})
     cy.get('@senha')
@@ -19,7 +19,7 @@ Cypress.Commands.add('realizandoLogin', () => {
         .should('be.visible') 
 }) 
 Cypress.Commands.add('loginInvalido', () =>{
-    cy.fixture("name").then((invalido) => {
+    cy.fixture('Client').then((invalido) => {
     cy.get('@email')
       .type(invalido.userInvalid)
      cy.get('@senha')
