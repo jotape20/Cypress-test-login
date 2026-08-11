@@ -24,7 +24,7 @@ it('Login invalido', () => {
     cy.loginInvalido()
   })
 
-  it.only('Validando itens no carrinho na página de Login', () => {
+  it('Validando itens no carrinho na página de Login', () => {
     cy.get('@iten1').click()
     cy.loginPage()
     cy.realizandoLogin()
