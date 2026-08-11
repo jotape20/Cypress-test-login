@@ -1,4 +1,6 @@
 Cypress.Commands.add('loginPage', () => {
+    cy.get('[data-id="1"]')
+        .as('iten1') 
     cy.contains('Login')
         .click()
     cy.url()
