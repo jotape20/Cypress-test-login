@@ -5,9 +5,7 @@ describe('Login testes', () => {
 
         cy.title()
           .should('eq', 'Sweet Shop') 
-
-        cy.get('[data-id="1"]')
-          .as('iten1')   
+  
     })
 
 it('Visitando a tela de Login', () => {
@@ -30,5 +28,4 @@ it('Login invalido', () => {
     cy.realizandoLogin()
     cy.get('#basketItems').should('be.visible')
   })
-
 })
